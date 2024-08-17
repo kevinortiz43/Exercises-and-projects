@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="POMParallelTest(failed)">
+    <classes>
+      <class name="pomTests.RegisterUserTC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="registerUSer"/>
+        </methods>
+      </class> <!-- pomTests.RegisterUserTC -->
+      <class name="pomTests.LoginUserTC">
+        <methods>
+          <include name="setUp"/>
+          <include name="registerUSer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pomTests.LoginUserTC -->
+    </classes>
+  </test> <!-- POMParallelTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

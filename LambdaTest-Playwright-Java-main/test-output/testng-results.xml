@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T15:25:37 EDT" name="Suite" finished-at="2024-07-30T15:25:53 EDT" duration-ms="16551">
+    <groups>
+    </groups>
+    <test started-at="2024-07-30T15:25:37 EDT" name="POMParallelTest" finished-at="2024-07-30T15:25:53 EDT" duration-ms="16551">
+      <class name="pomTests.LoginUserTC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomTests.LoginUserTC@75329a49]" started-at="2024-07-30T15:25:37 EDT" name="setUp" finished-at="2024-07-30T15:25:46 EDT" duration-ms="9511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUSer()[pri:0, instance:pomTests.LoginUserTC@75329a49]" started-at="2024-07-30T15:25:46 EDT" name="registerUSer" finished-at="2024-07-30T15:25:48 EDT" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUSer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pomTests.LoginUserTC@75329a49]" started-at="2024-07-30T15:25:48 EDT" name="tearDown" finished-at="2024-07-30T15:25:48 EDT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomTests.LoginUserTC -->
+      <class name="pomTests.RegisterUserTC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomTests.RegisterUserTC@161479c6]" started-at="2024-07-30T15:25:37 EDT" name="setUp" finished-at="2024-07-30T15:25:45 EDT" duration-ms="8578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUSer()[pri:0, instance:pomTests.RegisterUserTC@161479c6]" started-at="2024-07-30T15:25:45 EDT" name="registerUSer" finished-at="2024-07-30T15:25:53 EDT" duration-ms="7885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUSer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pomTests.RegisterUserTC@161479c6]" started-at="2024-07-30T15:25:53 EDT" name="tearDown" finished-at="2024-07-30T15:25:53 EDT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomTests.RegisterUserTC -->
+    </test> <!-- POMParallelTest -->
+  </suite> <!-- Suite -->
+</testng-results>

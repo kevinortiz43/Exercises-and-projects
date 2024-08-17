@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Annotations">
+    <test name="Run Methods">
+        <classes>
+            <class name="com.testng.linkedin.ConfigurationAnnotations_1_DatePickers">
+                <methods>
+                    <!-- Include method once unless required otherwise -->
+                    <include name="test1_BoostrapDatePicker"/>
+                     <exclude name ="test2_JQueryDatePicker"/>
+                </methods>
+            </class>
+            <class name="com.testng.linkedin.ConfigurationAnnotations_2_List"/>
+        </classes>
+    </test>
+</suite>

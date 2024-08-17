@@ -1,0 +1,16 @@
+--- 
+apiVersion: apps/v1
+kind: namespace
+metadata:
+  name: quote-service
+  namespace: development
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: pod-info-container
+        image: datatwire/quote:0.50
+        ports:
+        - containerPort: 8080
+  
